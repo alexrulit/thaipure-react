@@ -1,0 +1,12 @@
+.footer__title {
+    display: flex;
+    flex-direction: row;
+    margin: 58px 0 49px 0;
+}
+
+@media screen and (max-width: 740px) {
+    .footer__title {
+        flex-direction: column;
+        margin: 58px 0 100px 0;
+    }
+}

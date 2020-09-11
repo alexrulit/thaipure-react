@@ -1,0 +1,17 @@
+.showcase__icon {
+    width: 280px;
+    height: 235px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1250px) {
+    .showcase__icon {
+        width: 208px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .showcase__icon {
+        margin: 0 auto;
+    }
+}

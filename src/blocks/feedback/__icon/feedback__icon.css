@@ -1,0 +1,9 @@
+.feedback__icon {
+    margin-right: 14px;
+}
+
+@media screen and (max-width: 740px) {
+    .feedback__icon {
+        margin: 0 123px -22px 0;
+    }
+}

@@ -1,0 +1,39 @@
+.options__container {
+    position: relative;
+    width: 1130px;
+    height: 716px;
+    object-fit: contain;
+    margin: 0 auto 0;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1250px) {
+    .options__container {
+        width: 960px;
+        margin: 0 0 0 -35px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .options__container {
+        width: 960px;
+        margin: 0 0 0 -150px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .options__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 440px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .options__container {
+        width: 290px;
+    }
+}

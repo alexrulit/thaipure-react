@@ -1,0 +1,19 @@
+.energy__image {
+    margin: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .energy__image {
+        width: 384px;
+        height: 384px;
+        margin: 94px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .energy__image {
+        width: 295px;
+        height: 295px;
+        margin: 25px auto 0;
+    }
+}

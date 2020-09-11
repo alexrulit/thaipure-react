@@ -1,0 +1,20 @@
+.energy__icon {
+    position: absolute;
+    top: -127px;
+    right: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .energy__icon {
+        width: 190px;
+        height: 175px;
+        top: 8px;
+        right: -25px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .energy__icon {
+        display: none;
+    }
+}

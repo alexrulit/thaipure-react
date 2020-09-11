@@ -1,0 +1,22 @@
+@import url(./__title/header__title.css);
+@import url(./__logo/header__logo.css);
+@import url(./__about/header__about.css);
+@import url(./__contact/header__contact.css);
+@import url(./__phone/header__phone.css);
+@import url(./__link/header__link.css);
+@import url(./__button/header__button.css);
+
+.header {
+    display: flex;
+    background-color: #F6FBF3;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto 0;
+}
+
+@media screen and (max-width: 740px) {
+    .header {
+        background-color: white;
+    }
+}

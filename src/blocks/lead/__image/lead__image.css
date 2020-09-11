@@ -1,0 +1,28 @@
+.lead__image {
+    position: absolute;
+    top: 45px;
+    right: 100px;
+}
+
+@media screen and (max-width: 1920px) {
+    .lead__image {
+        right: calc((100% - 1214px)/2);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .lead__image {
+        width: 400px;
+        right: -10px;
+        top: 295px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .lead__image {
+        position: static;
+        width: 300px;
+        margin: 0 auto;
+        order: 1;
+    }
+}

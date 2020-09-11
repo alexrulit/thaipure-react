@@ -1,0 +1,11 @@
+.options__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 740px) {
+    .options__list {
+        order: 2;
+    }
+}

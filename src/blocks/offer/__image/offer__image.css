@@ -1,0 +1,21 @@
+@media screen and (max-width: 990px) {
+    .offer__image {
+        width: 555px;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .offer__image {
+        content: url(../../../images/main_480.svg);
+        width: 335px;
+        object-fit: contain;
+        margin: 15px 0 0 100px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .offer__image {
+        margin: 46px 0 0 42px;
+    }
+}

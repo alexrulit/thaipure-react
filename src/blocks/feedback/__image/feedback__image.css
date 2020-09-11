@@ -1,0 +1,14 @@
+.feedback__image{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: 39px 44px 0 28px;
+}
+
+@media screen and (max-width: 740px) {
+    .feedback__image {
+        width: 72px;
+        height: 72px;
+        margin: 0 auto;
+    }
+}

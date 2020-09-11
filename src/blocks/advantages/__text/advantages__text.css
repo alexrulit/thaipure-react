@@ -1,0 +1,33 @@
+.advantages__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155.5%;
+    color: #252D24;
+    max-width: 300px;
+    margin-left: 35px;
+    align-self: center;
+}
+
+@media screen and (max-width: 1250px) {
+    .advantages__text {
+        max-width: 247px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .advantages__text {
+        max-width: 197px;
+        margin: 0 0 0 11px;
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .advantages__text {
+        width: 238px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+}

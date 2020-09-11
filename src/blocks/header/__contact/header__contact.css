@@ -1,0 +1,27 @@
+.header__contact {
+    margin: 37px 135px 0 0;
+}
+
+@media screen and (max-width: 1920px) {
+    .header__contact {
+        margin: 37px calc((100% - 1214px)/2) 0 0;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .header__contact {
+        margin: 37px calc((100% - 960px)/2) 0 0;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .header__contact {
+        margin: 37px calc((100% - 728px)/2) 0 0;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .header__contact {
+        display: none;
+    }
+}

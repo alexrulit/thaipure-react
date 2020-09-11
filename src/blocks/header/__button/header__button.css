@@ -1,0 +1,23 @@
+.header__button {
+    visibility: hidden;
+    width: 31px;
+    height: 31px;
+    background-image: url(../../../images/phone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.header__button:hover {
+    box-shadow: 4px 4px 8px rgba(37, 45, 36, 0.2);
+    transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 740px) {
+    .header__button {
+        visibility: visible;
+    }
+}

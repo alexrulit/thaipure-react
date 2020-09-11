@@ -1,0 +1,17 @@
+.offer__advantage-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155.5%;
+    color: #252D24;
+    margin: 10px 0 0 0;
+}
+
+@media screen and (max-width: 740px) {
+    .offer__advantage-text {
+        font-size: 12px;
+        text-align: center;
+        margin: 5px 0 0 0;
+    }
+}

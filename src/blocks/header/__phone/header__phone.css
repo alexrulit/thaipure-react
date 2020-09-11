@@ -1,0 +1,10 @@
+.header__phone {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 155.5%;
+    text-align: right;
+    color: #252D24;
+    margin: 0 0 10px 0;
+}

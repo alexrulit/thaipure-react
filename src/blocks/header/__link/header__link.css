@@ -1,0 +1,10 @@
+.header__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 155.5%;
+    text-align: right;
+    color: #59B722;
+    z-index: 2;
+}

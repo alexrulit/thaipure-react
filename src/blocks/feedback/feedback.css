@@ -1,0 +1,27 @@
+@import url(./__title/feedback__title.css);
+@import url(./__subtitle/feedback__subtitle.css);
+@import url(./__items/feedback__items.css);
+@import url(./__item/feedback__item.css);
+@import url(./__title-container/feedback__title-container.css);
+@import url(./__image/feedback__image.css);
+@import url(./__icon/feedback__icon.css);
+@import url(./__username/feedback__username.css);
+@import url(./__container/feedback__container.css);
+@import url(./__region/feedback__region.css);
+@import url(./__item-title/feedback__item-title.css);
+@import url(./__paragraph/feedback__paragraph.css);
+@import url(./__link/feedback__link.css);
+@import url(./__rating/feedback__rating.css);
+@import url(./__arrow/feedback__arrow.css);
+@import url(./__slide/feedback__slide.css);
+
+.feedback {
+    background: #F6FBF3;
+}
+
+@media screen and (max-width: 740px) {
+    .feedback {
+        background: white;
+        margin: 0 calc((100% - 440px)/2);
+    }
+}

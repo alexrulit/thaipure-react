@@ -1,0 +1,35 @@
+.energy__container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1920px) {
+    .energy__container {
+        margin-left: calc((100% - 1214px)/2);
+        margin-right: calc((100% - 1214px)/2);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .energy__container {
+        margin-left: calc((100% - 960px)/2);
+        margin-right: -20px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .energy__container {
+        margin-left: -10px;
+        margin-right: -20px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .energy__container {
+        margin-left: calc((100% - 440px)/2);
+        margin-right: calc((100% - 440px)/2);
+        flex-direction: column;
+    }
+}

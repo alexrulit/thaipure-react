@@ -1,0 +1,21 @@
+.feedback__title {
+    max-width: 198px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #252D24;
+    margin: 0 auto 31px;
+    padding-top: 87px;
+}
+
+@media screen and (max-width: 740px) {
+    .feedback__title {
+        font-size: 18px;
+        padding-top: 50px;
+    }
+}
+

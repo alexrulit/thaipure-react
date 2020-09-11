@@ -1,0 +1,18 @@
+.footer__phone-link {
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 155.5%;
+    text-align: right;
+    color: #FFFFFF;
+    max-width: 158px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 740px) {
+    .footer__phone-link {
+        display: none;
+    }
+}

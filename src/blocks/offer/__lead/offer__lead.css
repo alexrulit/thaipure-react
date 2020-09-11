@@ -1,0 +1,21 @@
+.offer__lead {
+    position: relative;
+    padding-right: 25px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 990px) {
+    .offer__lead {
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .offer__lead {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: -165px;
+        order: 2;
+    }
+}

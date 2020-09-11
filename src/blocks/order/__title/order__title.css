@@ -1,0 +1,43 @@
+.order__title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    max-width: 837px;
+    margin: 0 0 121px 32px;
+    padding-top: 91px;
+}
+
+@media screen and (max-width: 1920px) {
+    .order__title {
+        margin: 0 0 121px calc((100% - 1214px)/2);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .order__title {
+        margin: 0 0 121px calc((100% - 960px)/2);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .order__title {
+        margin: 0 0 16px calc((100% - 728px)/2);
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .order__title {
+        margin: 0 0 16px calc((100% - 440px)/2);
+        font-size: 18px;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .order__title {
+        margin: 0 calc((100% - 288px)/2) 16px;
+    }
+}

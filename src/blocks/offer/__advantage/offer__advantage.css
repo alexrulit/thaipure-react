@@ -1,0 +1,74 @@
+.offer__advantage {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__advantage:nth-child(1) {
+    position: absolute;
+    top: 100px;
+    left: 18px;
+}
+
+.offer__advantage:nth-child(2) {
+    position: absolute;
+    top: 285px;
+    left: -4px;
+}
+
+.offer__advantage:nth-child(3) {
+    position: absolute;
+    top: 400px;
+    left: 75px;
+}
+
+@media screen and (max-width: 990px) {
+    .offer__advantage:nth-child(1) {
+        top: 110px;
+        left: 92px;
+    }
+
+    .offer__advantage:nth-child(2) {
+        top: 235px;
+        left: -10px;
+    }
+
+    .offer__advantage:nth-child(3) {
+        top: 405px;
+        left: 43px;
+    }
+}
+
+
+@media screen and (max-width: 740px) {
+    .offer__advantage:nth-child(1) {
+        top: 97px;
+        left: 107px;
+    }
+
+    .offer__advantage:nth-child(2) {
+        top: 170px;
+        left: 50px;
+    }
+
+    .offer__advantage:nth-child(3) {
+        top: 260px;
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .offer__advantage:nth-child(1) {
+        top: 138px;
+        left: 34px;
+    }
+
+    .offer__advantage:nth-child(2) {
+        top: 215px;
+        left: -10px;
+    }
+
+    .offer__advantage:nth-child(3) {
+        top: 290px;
+        left: 20px;
+    }
+}

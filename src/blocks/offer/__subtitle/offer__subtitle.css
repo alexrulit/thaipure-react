@@ -1,0 +1,25 @@
+.offer__subtitle {
+    max-width: 562px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155.5%;
+    color: #252D24;
+
+    margin: 30px 0 35px 0;
+}
+
+@media screen and (max-width: 990px) {
+    .offer__subtitle {
+        max-width: 416px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .offer__subtitle {
+        max-width: 450px;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+}

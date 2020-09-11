@@ -1,0 +1,25 @@
+.energy__subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 155.5%;
+    text-align: center;
+    color: #252D24;
+    margin: 30px auto 0;
+    max-width: 704px;
+}
+
+@media screen and (max-width: 740px) {
+    .energy__subtitle {
+        font-size: 14px;
+        text-align: start;
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .energy__subtitle {
+        max-width: 290px;
+    }
+}

@@ -1,0 +1,28 @@
+.lead__form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1920px) {
+    .lead__form {
+        margin: 0 0 0 calc((100% - 1214px)/2);
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .lead__form {
+        margin: 0 0 0 calc((100% - 960px)/2);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .lead__form {
+        margin: 0 0 0 calc((100% - 728px)/2);
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .lead__form {
+        display: none;
+    }
+}

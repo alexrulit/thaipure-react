@@ -1,0 +1,14 @@
+.feedback__item {
+    display: flex;
+    flex-direction: row;
+    max-width: 1010px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 740px) {
+    .feedback__item {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}

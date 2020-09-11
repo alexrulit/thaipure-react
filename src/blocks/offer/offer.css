@@ -1,0 +1,56 @@
+@import url(./__title/offer__title.css);
+@import url(./__subtitle/offer__subtitle.css);
+@import url(./__button/offer__button.css);
+@import url(./__advantages/offer__advantages.css);
+@import url(./__advantage/offer__advantage.css);
+@import url(./__advantage-text/offer__advantage-text.css);
+@import url(./__container/offer__container.css);
+@import url(./__image/offer__image.css);
+@import url(./__lead/offer__lead.css);
+@import url(./__advantage-icon/offer__advantage-icon.css);
+
+.offer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    background: #F6FBF3;
+    padding-left: 32px;
+}
+
+@media screen and (max-width: 1920px){
+    .offer {
+        padding-left: calc((100% - 1214px)/2);
+        padding-right: calc((100% - 1214px)/2);
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .offer {
+        padding-left: calc((100% - 960px)/2);
+        padding-right: calc((100% - 960px)/2);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .offer {
+        padding-left: calc((100% - 728px)/2);
+        padding-right: calc((100% - 728px)/2);
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .offer {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 calc((100% - 440px)/2);
+        background: white;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .offer {
+        margin: 0 calc((100% - 288px)/2);
+    }
+}

@@ -1,0 +1,17 @@
+.footer__phone {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 155.5%;
+    text-align: right;
+    color: #FFFFFF;
+    max-width: 326px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 740px) {
+    .footer__phone {
+        margin: 0 auto 10px;
+    }
+}

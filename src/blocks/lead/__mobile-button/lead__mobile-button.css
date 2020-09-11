@@ -1,0 +1,30 @@
+.lead__mobile-button {
+    display: none;
+    width: 290px;
+    height: 45px;
+    border: none;
+    background: #59B722;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 155.5%;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0 auto;
+    order: 2;
+
+}
+
+.lead__mobile-button:hover {
+    background: #49A414;
+    box-shadow: 4px 4px 8px rgba(37, 45, 36, 0.2);
+    transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 740px) {
+    .lead__mobile-button {
+        display: block;
+    }
+}

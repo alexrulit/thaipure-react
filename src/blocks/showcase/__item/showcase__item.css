@@ -1,0 +1,28 @@
+.showcase__item {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 8px solid #F6FBF3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    max-width: 288px;
+}
+
+@media screen and (max-width: 1250px) {
+    .showcase__item {
+        max-width: 225px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .showcase__item {
+        max-width: 230px;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .showcase__item {
+        max-width: 288px;
+    }
+}

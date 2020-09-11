@@ -1,0 +1,55 @@
+@import url(./__title/options__title.css);
+@import url(./__list/options__list.css);
+@import url(./__item/options__item.css);
+@import url(./__icon/options__icon.css);
+@import url(./__item-title/options__item-title.css);
+@import url(./__item-subtitle/options__item-subtitle.css);
+@import url(./__container/options__container.css);
+@import url(./__image/options__image.css);
+
+.options {
+    position: relative;
+    padding-top: 100px;
+    background: url(../../images/options_bg.png);
+    background-repeat: no-repeat;
+    background-size: 81% auto;
+    background-position: left bottom;
+}
+
+@media screen and (max-width: 1700px) {
+    .options {
+        background-size: 85% auto;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .options {
+        background-size: 90% auto;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    .options {
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .options {
+        background-size: 960px;
+        background-position: left -140px bottom 0;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .options {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .options {
+        background: white;
+        padding-bottom: 100px;
+    }
+}

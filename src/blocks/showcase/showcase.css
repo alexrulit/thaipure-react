@@ -1,0 +1,12 @@
+@import url(./__title/showcase__title.css);
+@import url(./__list/showcase__list.css);
+@import url(./__item/showcase__item.css);
+@import url(./__item-title/showcase__item-title.css);
+@import url(./__icon/showcase__icon.css);
+@import url(./__item-subtitle/showcase__item-subtitle.css);
+@import url(./__price/showcase__price.css);
+@import url(./__button/showcase__button.css);
+
+.showcase {
+    margin-bottom: 27px;
+}

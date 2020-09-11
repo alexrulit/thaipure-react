@@ -1,0 +1,11 @@
+.footer__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 740px) {
+    .footer__social {
+        justify-content: center;
+    }
+}

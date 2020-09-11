@@ -1,0 +1,13 @@
+.order__icon {
+    position: absolute;
+    bottom: -75px;
+    right: -40px;
+}
+
+@media screen and (max-width: 1250px) {
+    .order__icon {
+        width: 260px;
+        height: 134px;
+        bottom: -90px;
+    }
+}

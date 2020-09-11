@@ -1,0 +1,25 @@
+.offer__container {
+    position: relative;
+    width: 712px;
+    height: 570px;
+    object-fit: cover;
+    z-index: 0;
+    margin-top: -30px;
+}
+
+@media screen and (max-width: 990px) {
+    .offer__container {
+        width: 555px;
+        height: 410px;
+        padding-top: 109px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .offer__container {
+        width: 520px;
+        order: 1;
+        padding-top: 80px;
+    }
+}

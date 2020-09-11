@@ -1,0 +1,11 @@
+.showcase__item-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #59B722;
+    margin: 0 0 -20px 0;
+}

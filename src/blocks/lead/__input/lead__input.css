@@ -1,0 +1,27 @@
+.lead__input {
+    width: 595px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    margin-top: 15px;
+    text-indent: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155.5%;
+    color: #252D24;
+}
+
+@media screen and (max-width: 990px) {
+    .lead__input {
+        width: 414px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .lead__input {
+        display: none;
+    }
+}

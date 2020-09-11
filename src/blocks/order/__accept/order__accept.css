@@ -1,0 +1,24 @@
+.order__accept {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 155.5%;
+    text-align: center;
+    color: #252D24;
+    max-width: 470px;
+    margin: 0 75px 0 50px;
+}
+
+@media screen and (max-width: 1250px) {
+    .order__accept {
+        max-width: 412px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .order__accept {
+        max-width: 362px;
+        margin: 0 auto 0;
+    }
+}

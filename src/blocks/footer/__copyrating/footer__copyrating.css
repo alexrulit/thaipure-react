@@ -1,0 +1,18 @@
+.footer__copyrating {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155.5%;
+    color: #FFFFFF;
+    max-width: 125px;
+    margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 740px) {
+    .footer__copyrating {
+        font-size: 9px;
+        margin: 0 auto 13px;
+        text-align: center;
+    }
+}

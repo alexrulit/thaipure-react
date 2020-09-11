@@ -1,0 +1,28 @@
+.advantages__subtitle {
+    max-width: 386px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 155.5%;
+    color: #000000;
+}
+
+@media screen and (max-width: 1250px) {
+    .advantages__subtitle {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .advantages__subtitle {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .advantages__subtitle {
+        font-size: 14px;
+        max-width: 291px;
+    }
+}

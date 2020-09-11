@@ -1,0 +1,26 @@
+@import url(./__title-section/advantages__title-section.css);
+@import url(./__title/advantages__title.css);
+@import url(./__subtitle/advantages__subtitle.css);
+@import url(./__list/advantages__list.css);
+@import url(./__item/advantages__item.css);
+@import url(./__icon/advantages__icon.css);
+@import url(./__text/advantages__text.css);
+@import url(./__image/advantages__image.css);
+
+.advantages {
+    background: linear-gradient(180deg, #F6FBF3 0%, rgba(246, 251, 243, 0) 100%);
+    padding-top: 210px;
+}
+
+@media screen and (max-width: 990px) {
+    .advantages {
+        padding-top: 160px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .advantages {
+        padding-top: 200px;
+        background: white;
+    }
+}

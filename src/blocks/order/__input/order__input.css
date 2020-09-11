@@ -1,0 +1,28 @@
+.order__input {
+    width: 515px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    margin: 0 auto 15px;
+    text-indent: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155.5%;
+    color: #252D24;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .order__input {
+        width: 415px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .order__input {
+        width: 362px;
+    }
+}

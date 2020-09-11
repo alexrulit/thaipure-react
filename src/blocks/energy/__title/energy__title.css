@@ -1,0 +1,27 @@
+.energy__title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #252D24;
+    margin: 185px auto 0;
+    max-width: 810px;
+}
+
+@media screen and (max-width: 740px) {
+    .energy__title {
+        font-size: 18px;
+        max-width: 450px;
+        text-align: start;
+        margin: 85px auto 0;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    .energy__title {
+        max-width: 290px;
+    }
+}

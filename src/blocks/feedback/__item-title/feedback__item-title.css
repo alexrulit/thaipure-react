@@ -1,0 +1,18 @@
+.feedback__item-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 155.5%;
+    color: #252D24;
+    margin: 2px 0 0 0;
+    max-width: 589px;
+}
+
+@media screen and (max-width: 740px) {
+    .feedback__item-title {
+        font-size: 14px;
+        max-width: 290px;
+        margin: 10px auto 0;
+    }
+}
