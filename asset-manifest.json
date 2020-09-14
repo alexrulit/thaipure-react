@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/thaipure-react/static/css/main.0ceea057.chunk.css",
-    "main.js": "/thaipure-react/static/js/main.014aab8e.chunk.js",
-    "main.js.map": "/thaipure-react/static/js/main.014aab8e.chunk.js.map",
+    "main.css": "/thaipure-react/static/css/main.23203858.chunk.css",
+    "main.js": "/thaipure-react/static/js/main.89ae2d04.chunk.js",
+    "main.js.map": "/thaipure-react/static/js/main.89ae2d04.chunk.js.map",
     "runtime-main.js": "/thaipure-react/static/js/runtime-main.e61fc7b7.js",
     "runtime-main.js.map": "/thaipure-react/static/js/runtime-main.e61fc7b7.js.map",
-    "static/js/2.17c9d130.chunk.js": "/thaipure-react/static/js/2.17c9d130.chunk.js",
-    "static/js/2.17c9d130.chunk.js.map": "/thaipure-react/static/js/2.17c9d130.chunk.js.map",
+    "static/js/2.3fd6f664.chunk.js": "/thaipure-react/static/js/2.3fd6f664.chunk.js",
+    "static/js/2.3fd6f664.chunk.js.map": "/thaipure-react/static/js/2.3fd6f664.chunk.js.map",
     "index.html": "/thaipure-react/index.html",
-    "precache-manifest.fef7fed8b61217d53b0842fe016a08c5.js": "/thaipure-react/precache-manifest.fef7fed8b61217d53b0842fe016a08c5.js",
+    "precache-manifest.1294a4d513766d573bc2b8d31f598758.js": "/thaipure-react/precache-manifest.1294a4d513766d573bc2b8d31f598758.js",
     "service-worker.js": "/thaipure-react/service-worker.js",
-    "static/css/main.0ceea057.chunk.css.map": "/thaipure-react/static/css/main.0ceea057.chunk.css.map",
-    "static/js/2.17c9d130.chunk.js.LICENSE.txt": "/thaipure-react/static/js/2.17c9d130.chunk.js.LICENSE.txt",
+    "static/css/main.23203858.chunk.css.map": "/thaipure-react/static/css/main.23203858.chunk.css.map",
+    "static/js/2.3fd6f664.chunk.js.LICENSE.txt": "/thaipure-react/static/js/2.3fd6f664.chunk.js.LICENSE.txt",
     "static/media/1000ml.png": "/thaipure-react/static/media/1000ml.5213488f.png",
     "static/media/100ml.png": "/thaipure-react/static/media/100ml.23981b91.png",
     "static/media/250ml.png": "/thaipure-react/static/media/250ml.5a2c888d.png",
@@ -37,12 +37,13 @@
     "static/media/order.svg": "/thaipure-react/static/media/order.7c1e549e.svg",
     "static/media/order_icon.svg": "/thaipure-react/static/media/order_icon.0846a673.svg",
     "static/media/otzovik.svg": "/thaipure-react/static/media/otzovik.2363b5da.svg",
+    "static/media/popup-icon.png": "/thaipure-react/static/media/popup-icon.6b58929d.png",
     "static/media/salat.svg": "/thaipure-react/static/media/salat.6f93f7ff.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e61fc7b7.js",
-    "static/js/2.17c9d130.chunk.js",
-    "static/css/main.0ceea057.chunk.css",
-    "static/js/main.014aab8e.chunk.js"
+    "static/js/2.3fd6f664.chunk.js",
+    "static/css/main.23203858.chunk.css",
+    "static/js/main.89ae2d04.chunk.js"
   ]
 }

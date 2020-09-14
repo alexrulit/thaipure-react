@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dad327fb41efd4c07c84c567a5d93b3e",
+    "revision": "00d94dee0f94931398f2150bfdc11a06",
     "url": "/thaipure-react/index.html"
   },
   {
-    "revision": "70d0e2cd6de2a7e90687",
-    "url": "/thaipure-react/static/css/main.0ceea057.chunk.css"
+    "revision": "3198385bcc4b654fd909",
+    "url": "/thaipure-react/static/css/main.23203858.chunk.css"
   },
   {
-    "revision": "1f5b0807fb66c03fd5a2",
-    "url": "/thaipure-react/static/js/2.17c9d130.chunk.js"
+    "revision": "e5677d357dd09499af8a",
+    "url": "/thaipure-react/static/js/2.3fd6f664.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/thaipure-react/static/js/2.17c9d130.chunk.js.LICENSE.txt"
+    "url": "/thaipure-react/static/js/2.3fd6f664.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70d0e2cd6de2a7e90687",
-    "url": "/thaipure-react/static/js/main.014aab8e.chunk.js"
+    "revision": "3198385bcc4b654fd909",
+    "url": "/thaipure-react/static/js/main.89ae2d04.chunk.js"
   },
   {
     "revision": "9763a46e3bcb13cb1cb4",
@@ -178,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5e264d3959200cdd6279a12e2c0bf67b",
     "url": "/thaipure-react/static/media/phone.5e264d39.svg"
+  },
+  {
+    "revision": "6b58929df10df9e6cd0daebf2217152e",
+    "url": "/thaipure-react/static/media/popup-icon.6b58929d.png"
   },
   {
     "revision": "6f93f7ff53636d9b01a62c8921a81e95",
