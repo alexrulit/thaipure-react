@@ -1,6 +1,6 @@
-.lead__button {
-    width: 598px;
-    height: 60px;
+.popup__button {
+    width: 360px;
+    height: 55px;
     border: none;
     background: #59B722;
     border-radius: 100px;
@@ -11,18 +11,13 @@
     line-height: 155.5%;
     color: #FFFFFF;
     cursor: pointer;
-    margin-top: 17px;
+    margin: 2px auto 8px;
     outline: none;
+    z-index: 1;
 }
 
-.lead__button:hover {
+.popup__button:hover {
     background: #49A414;
     box-shadow: 4px 4px 8px rgba(37, 45, 36, 0.2);
     transition: all 0.3s ease-in;
-}
-
-@media screen and (max-width: 990px) {
-    .lead__button {
-        width: 414px;
-    }
 }

@@ -8,14 +8,14 @@ import Options from './Options';
 import Feedback from './Feedback';
 import Order from './Order';
 
-function Main() {
+function Main(props) {
     return(
         <main className="content">
-            <Offer />
+            <Offer openOrder={props.openOrder} />
             <Advantages />
             <Energy />
             <Lead />
-            <Showcase />
+            <Showcase openOrder={props.openOrder} />
             <Options />
             <Feedback />
             <Order />

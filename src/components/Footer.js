@@ -2,7 +2,7 @@ import React from 'react';
 import Instagram from '../images/insta.svg';
 import Vk from '../images/VK.svg';
 
-function Footer() {
+function Footer(props) {
     return(
         <footer className="footer">
             <div className="footer__container">
@@ -15,7 +15,7 @@ function Footer() {
             </div>
             <div className="footer__contact">
                 <p className="footer__phone">+7 (999) 777-88-99</p>
-                <a href="#" className="footer__phone-link">Заказать звонок</a>
+                <a href="#" className="footer__phone-link" onClick={props.openCall}>Заказать звонок</a>
                 <div className="footer__social">
                     <img className="footer__icon" src={Instagram} />
                     <img className="footer__icon" src={Vk} />

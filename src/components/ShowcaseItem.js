@@ -7,7 +7,7 @@ function ShowcaseItem(props) {
             <img className="showcase__icon" src={props.img} />
             <p className="showcase__item-subtitle">{props.subtitle}</p>
             <p className="showcase__price">{props.price}</p>
-            <button type="button" className="showcase__button">Заказать</button>
+            <button type="button" className="showcase__button" onClick={props.openOrder}>Заказать</button>
         </li>
     );
 }

@@ -1,0 +1,17 @@
+.popup__close {
+    position: absolute;
+    right: -50px;
+    top: -50px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-image: url(../../../images/popup-close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.popup__close:hover {
+    opacity: .4;
+    transition: opacity .3s ease-out;
+}

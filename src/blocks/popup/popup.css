@@ -1,0 +1,17 @@
+@import url(./__close/popup__close.css);
+@import url(./__title/popup__title.css);
+@import url(./__subtitle/popup__subtitle.css);
+@import url(./__form/popup__form.css);
+@import url(./__input/popup__input.css);
+@import url(./__button/popup__button.css);
+@import url(./__accept/popup__accept.css);
+@import url(./__form-link/popup__form-link.css);
+@import url(./__icon/popup__icon.css);
+
+.popup {
+    position: relative;
+    width: 460px;
+    height: 472px;
+    margin: 10px auto;
+    background: #F6FBF3;
+}

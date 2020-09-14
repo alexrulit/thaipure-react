@@ -1,0 +1,7 @@
+.popup__icon {
+    position: absolute;
+    left: 0;
+    bottom: 69px;
+    width: 115px;
+    z-index: 0;
+}

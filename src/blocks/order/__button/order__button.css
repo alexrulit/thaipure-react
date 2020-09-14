@@ -12,6 +12,7 @@
     color: #FFFFFF;
     cursor: pointer;
     margin: 2px auto 23px;
+    outline: none;
 }
 
 .order__button:hover {

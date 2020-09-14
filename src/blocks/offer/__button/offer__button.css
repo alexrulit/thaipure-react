@@ -11,6 +11,7 @@
     line-height: 155.5%;
     color: #FFFFFF;
     cursor: pointer;
+    outline: none;
 }
 
 .offer__button:hover {

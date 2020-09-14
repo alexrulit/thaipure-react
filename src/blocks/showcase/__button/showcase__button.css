@@ -12,6 +12,7 @@
     color: #FFFFFF;
     cursor: pointer;
     margin: 0 auto -35px;
+    outline: none;
 }
 
 .showcase__button:hover {
